@@ -15,6 +15,6 @@ To finish, you will need to change the path to your openvpn configuration file b
 to launch the sscript : sudo ./proc-vpn.sh terminator (with terminator being the process i want to run with its network segragated from the rest of the system)
 this way, all applications launched via this terminal use the network namespace and go throught the vpn. I use a terminal multiplexer named bypbu to be able to launch as many sub terminals as needed.
 
-![b0c5692ff8935569735812a02674ba4a.png](./b0c5692ff8935569735812a02674ba4a.png)
+![0f2dce0680999918f1b7bed6b0cc1215.png](./0f2dce0680999918f1b7bed6b0cc1215.png)
 
 To-do : modify the script to run as non root user
