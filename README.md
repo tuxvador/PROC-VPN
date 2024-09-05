@@ -1,4 +1,6 @@
-Example command to run : sudo ./proc-vpn.sh terminator
+Example command to run : 
+sudo ./proc-vpn.sh terminator
+sudo ./proc-vpn2.sh runuser $USER -c tilix #### Gnome-terminal seems to have issues
 
 # PROC-VPN
 A simple script to launch a vpn in a process using the linux network namespaces to isolate the process network from
@@ -18,5 +20,3 @@ to launch the sscript : sudo ./proc-vpn.sh terminator (with terminator being the
 this way, all applications launched via this terminal use the network namespace and go throught the vpn. I use a terminal multiplexer named bypbu to be able to launch as many sub terminals as needed.
 
 ![0f2dce0680999918f1b7bed6b0cc1215.png](./0f2dce0680999918f1b7bed6b0cc1215.png)
-
-To-do : modify the script to run as non root user
