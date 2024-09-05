@@ -1,3 +1,5 @@
+Example command to run : sudo ./proc-vpn.sh terminator
+
 # PROC-VPN
 A simple script to launch a vpn in a process using the linux network namespaces to isolate the process network from
 from the rest of the computer. This way, when connecting to a VPN, instead of all the network traffic going throught the
