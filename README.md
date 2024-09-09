@@ -1,4 +1,8 @@
-Example command to run : sudo ./proc-vpn.sh terminator
+Example command to run :  
+sudo ./proc-vpn.sh terminator  
+sudo ./proc-vpn2.sh runuser $USER -c tilix 
+
+**Gnome terminal seems to have issues**
 
 # PROC-VPN
 A simple script to launch a vpn in a process using the linux network namespaces to isolate the process network from
