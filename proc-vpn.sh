@@ -11,7 +11,7 @@ VETH_NS="veth1"                          # Namespace end of the virtual ethernet
 IP_MAIN="10.2.1.1/24"                    # IP address for the main end of the veth pair
 IP_NS="10.2.1.2/24"                      # IP address for the namespace end of the veth pair
 NETWORK="10.2.1.0/24"                    # Network address for the veth pair
-VPN_CONFIG="/home/tuxvador/.VPN/private_openvpn/openvpn.ovpn" # Path to the VPN configuration file
+VPN_CONFIG="/home/tuxvador/VPN/openvpn.ovpn" # Path to the VPN configuration file
 COMMAND_TO_RUN="$@"                      # Command to run through the VPN passed as parameter to the script
 
 # Cleanup function to be called on exit
